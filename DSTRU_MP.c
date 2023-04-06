@@ -1,12 +1,14 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdbool.h>
 
 #define Size 3
 
 int game [Size][Size];
 
 /*
-    make a tic tac toe game 
+    8 1 6
+    3 5 7
+    4 9 2
 */
 
 // initialize the board with empty cells
@@ -36,7 +38,7 @@ void print_board() {
 int main()
 {
     initialize_board();
-        
+
     print_board();
 
 
